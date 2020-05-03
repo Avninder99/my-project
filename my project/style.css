@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@500&family=Raleway:wght@500&display=swap');
 * {
 	padding: 0;
 	margin: 0;
@@ -11,7 +14,7 @@ html {
 
 body {
     background-color: #f8f9fa;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 header {
@@ -24,7 +27,7 @@ header {
     background-position: top;
     position: relative;
 
-    clip-path: polygon(100% 0, 100% 85%, 50% 99%, 0 85%, 0 0);
+    clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
 }
 
 .text-box {
@@ -76,7 +79,7 @@ header {
 @keyframes moving-left {
     0% {opacity: 0 ; transform:translate(10rem)}
     80% {transform: translateX(1rem);}
-    100% {opacity: 1;transform: translateX(20px);}
+    100% {opacity: 1;transform: translateX(0px);}
 }
 .btn:link,
 .btn:visited {
@@ -144,4 +147,41 @@ header {
         opacity: 1;
         transform: translateX(0);
     }
+}
+
+.main-intro {
+    height: 100vh;
+    margin-top: 2rem;
+    background: #1e3c72;  
+    background: linear-gradient(to right, #1e3c72, #2a5298); 
+    padding: 3rem;
+    clip-path: polygon(50% 0%, 100% 10%, 100% 85%, 50% 100%, 0 85%, 0 10%);
+}
+
+#heading-text {
+    font-size: 10rem;
+    text-align: center;
+    font-family: 'lato',sans-serif;
+    font-weight: 400;
+    margin: 2rem;
+    color: #dbd65c;
+}
+
+.section-text {
+    margin-top: 3rem;
+}
+
+.text-content {
+    font-size: 4.5rem;
+    font-weight: 400;
+    font-family: 'Montseerat', sans-serif;
+    margin: 5rem;
+    color: #ffeaa7;
+    word-wrap: normal;
+}
+
+.text-content span {
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;;
+    color: #eb2f06;
 }
