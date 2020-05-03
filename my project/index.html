@@ -25,7 +25,7 @@
 		</div>
 	</header>
 
-	<section class="main-intro">
+	<section id="main-intro">
 		<div class="main-header">
 			<h2 class="main-heading">
 				<p id="heading-text"></p>
@@ -33,19 +33,24 @@
 		</div>
 		<div class="section-text">
 			<div class="text-content">
-				[
-				"We are a group of two friends who are passionate for coding.", "Currently Persuing <span> { <p>B.Tech -
-						Computer Science in GNDEC, LDH.</p> } </span>.", "With our
-				current goal of mastering <span> { <p>Web Development, Python, Java ...</p> } </span>.", "We are very keen
-				to indulge in Healthy Compition, <span> { <p>like Hackathons, Code Alongs, Code Relays ...</p> } </span> and
-				thus Try to impove ourselves along with each other.", "We Passionatly tackle the challenges thrown to us.",
-				"Currently we are Working on <span> { <p>React, Advanced CSS, Javascript ...</p> } </span>;"
-				];
+				[ <br>
+				<br>
+				" We are a group of two friends who are passionate for coding. Currently Persuing <span> { <p>B.Tech -
+						Computer Science in GNDEC, LDH.</p> } </span>. With our
+				current goal of mastering <span> { <p>Web Development, Python, Java ...</p> } </span> " , <br> " We are
+				very
+				keen
+				to indulge in Healthy Competition, <span> { <p>like Hackathons, Code Alongs, Code Relays ...</p> }
+				</span>
+				and
+				thus Try to impove ourselves along with each other. We Passionatly tackle the challenges thrown to
+				us. Currently we are Working on <span> { <p>React, Advanced CSS, Javascript ...</p> } " </span> <br>
+				<br> ];
 			</div>
 		</div>
 	</section>
 
-	<section class="project-intro">
+	<section id="project-intro">
 		<div class="projects">
 
 		</div>
@@ -58,7 +63,10 @@
 		new TypeIt("#heading-text", {
 			speed: 75,
 			loop: true
-		}).type("\"Who We Are ?\"")
+		}).type("?")
+			.pause(2000)
+			.delete()
+			.type("\"Who We Are ?\"")
 			.pause(3000)
 			.delete()
 			.pause(2000)
