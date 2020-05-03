@@ -181,7 +181,12 @@ header {
 }
 
 .text-content span {
+    color: #fbc531;
+}
+
+.text-content span p {
     font-weight: 600;
     font-family: 'Raleway', sans-serif;;
     color: #eb2f06;
+    display: inline;
 }
