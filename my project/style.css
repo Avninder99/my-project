@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background-color: #dcdde1;
+    background-color: #bdc3c7;
     padding: 1.5rem;
 }
 
@@ -201,7 +201,7 @@ header {
     font-size: 3.5rem;
     font-weight: 400;
     font-family: 'Montseerat', sans-serif;
-    margin: 7rem 10%;
+    margin: 5rem 10%;
     color: #ffeaa7;
     word-wrap: normal;
     animation: bounce 1.2s linear;
@@ -231,3 +231,24 @@ header {
     padding-bottom: 2.5rem;
 }
 
+
+
+
+
+
+
+
+
+#about-us {
+    height: 100vh;
+    margin-top: 2rem;
+    background: #1e3c72;  
+    background: linear-gradient(to bottom right, #030a35, #3438f5); 
+    clip-path: polygon(0 100%, 100% 100%, 100% 15%, 50% 0, 0 15%);
+}
+
+#footer {
+    height: 50vh;
+    background: #777;  
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
