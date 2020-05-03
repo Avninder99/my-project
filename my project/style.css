@@ -411,13 +411,113 @@ header {
 .card-avninder .card:hover > .front {
 	transform: perspective(60rem) rotateY(-180deg);
 }
-
-
-
-
-
 #footer {
     height: 50vh;
-    background: #777;  
+    background-image: linear-gradient(to bottom, rgb(0, 15, 102), rgb(56, 0, 105)) ;  
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.one{
+    padding: 6rem 12rem;
+    width: 50%;
+}
+.two{
+    padding: 2rem 10rem;
+    width: 50%;
+    position: relative;
+}
+.footer-head {
+    font-size: 4.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(255, 38, 0);
+}
+.footer-div-head {
+    color: white;
+    font-size: 4.5rem;
+}
+.headpart{
+    color: rgb(245, 46, 46);
+}
+.footer-body{
+    display: flex;
+    flex-direction: row;
+
+}
+.two h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-weight: 500;
+    color: thistle;
+}
+.footer-icon-holder {
+    font-size: 3rem;
+    margin-top: 0.7rem;
+    margin-left: 3rem;
+}
+.span1 {
+    color: yellow;
+}
+.email-input{
+    width: 88%;
+    height: 3.8rem;
+    padding: 0.7rem 1.2rem;
+    font-weight: 600;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    border: none;
+    color: black;
+}
+.text-input{
+    width: 100%;
+    height: 10rem;
+    border-radius: 1.2rem;
+    resize: none;
+    padding: 0.9rem 1.2rem;
+    font-weight: 600;
+}
+.two form button {
+    position: absolute;
+    top: 6.8rem;
+    right: 10.5rem;
+    border: none;
+    padding-bottom: 0rem;
+    border-radius: 1rem;
+    font-size: 4rem;
+    height: 0rem;
+    transition: 0.4s;
+    color: rgb(21, 173, 21);
+}
+.two form button:hover {
+    transition: 0.4s;
+    color: rgb(57, 221, 57);
+}
+.icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+    margin: 0.3rem 0.5rem;
+    transition: 0.5s;
+    color: rgb(204, 200, 200);
+}
+.icon1:hover{
+    transition: 0.5s;
+    color: rgb(3, 44, 179);
+}
+.icon2:hover{
+    transition: 0.5s;
+    color: rgb(4, 149, 245);
+}
+.icon3:hover{
+    transition: 0.5s;
+    color: rgb(216, 4, 4);
+}
+.icon4:hover{
+    transition: 0.5s;
+    color: rgb(233, 255, 40);
+}
+.icon5:hover{
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+}
+.icon6:hover {
+    transition: 0.5s;
+    color: rgb(5, 89, 199);
 }
