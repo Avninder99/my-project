@@ -22,7 +22,7 @@ header {
     background-image: linear-gradient(to right bottom,
         rgba(20, 136, 204, 0.8),
         rgba(43, 50, 178, 0.8) ),
-     url(314799.jpg);
+     url(image1.jpg);
     background-size: cover;
     background-position: top;
     position: relative;
@@ -153,18 +153,19 @@ header {
     height: 100vh;
     margin-top: 2rem;
     background: #1e3c72;  
-    background: linear-gradient(to right, #1e3c72, #2a5298); 
+    background: linear-gradient(to bottom right, #030a35, #3438f5); 
     padding: 3rem;
     clip-path: polygon(50% 0%, 100% 10%, 100% 85%, 50% 100%, 0 85%, 0 10%);
+    padding-bottom: 25px;
 }
 
 #heading-text {
-    font-size: 10rem;
+    font-size: 7rem;
     text-align: center;
-    font-family: 'lato',sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
-    margin: 2rem;
-    color: #dbd65c;
+    margin: 2.5rem 2rem;
+    color: #acff3e;
 }
 
 .section-text {
@@ -172,10 +173,10 @@ header {
 }
 
 .text-content {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: 400;
     font-family: 'Montseerat', sans-serif;
-    margin: 5rem;
+    margin: 7rem 10%;
     color: #ffeaa7;
     word-wrap: normal;
 }
