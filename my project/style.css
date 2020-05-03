@@ -1,0 +1,101 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: #f8f9fa;
+}
+header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,
+        rgba(20, 136, 204, 0.8),
+        rgba(43, 50, 178, 0.8)),
+     url(image1.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.primary-heading {
+    text-transform: uppercase;
+    color: white;
+    backface-visibility: hidden;
+    margin-bottom: 50px;
+}
+.primary-heading-main {
+    font-size: 60px;
+    font-weight: 400;
+    padding-left: 14px;
+    display: block;
+    letter-spacing: 7px;
+    animation: moving-right 1.3s ease-in;
+}
+.primary-heading-sub {
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    letter-spacing: 5px;
+    animation: moving-left 1.3s ease-in;
+}
+.logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background: none;
+}
+.logo {
+    height: 35px;
+}
+@keyframes moving-right {
+    0% {opacity: 0 ; transform:translate(-100%)}
+    80% {transform: translateX(10px);}
+    100% {opacity: 1;transform: translateX(0);}
+}
+@keyframes moving-left {
+    0% {opacity: 0 ; transform:translate(100%)}
+    80% {transform: translateX(10px);}
+    100% {opacity: 1;transform: translateX(0);}
+}
+.btn {
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 0px 200px;
+    cursor: pointer;
+}
+.btn-white {
+    background-color: #ffffff;
+    color: #777777;
+    font-weight: 800;
+}
+.btn-animated {
+    animation: sink 0.5s;
+}
+.btn-animated:hover {
+    animation: float 0.5s forwards;
+}
+/* .btn-animated2 {
+    position: absolute;
+    top: 149px;
+    left: 0px;
+}
+.btn-animated2:hover {
+    animation: float-fade 0.5s forwards;
+}
+@keyframes float-fade {
+    70% {box-shadow: #3d3d3d 3px 3px 10px 5px;}
+    100% {opacity: 0;}
+} */
+@keyframes float {
+    100% {box-shadow: #3d3d3d 3px 3px 10px 5px;}
+}
+@keyframes sink {
+    0% {box-shadow: #3d3d3d 3px 3px 10px 5px;}
+    100% {box-shadow: #3d3d3d 0px 0px 0px 0px;}
+}
