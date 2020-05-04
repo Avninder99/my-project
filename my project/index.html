@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html>
-<!DOCTYPE html>
-<html>
 
 <head>
 	<title>Portfolio</title>
@@ -106,11 +104,11 @@
 	</section>
 
 	<footer id="footer">
-
-		<h2 class="footer-head"><span class="span1">[</span> "Contact Us" <span class="span1">]</span></h2>
+		<h2 id="footer-head"></h2>
 		<div class="footer-body">
 			<div class="one">
-				<h2 class="footer-div-head"><span class="span1">{</span><span class="headpart">Code</span>Masters<span class="span1">}</span></h2>
+				<h2 class="footer-div-head"><span class="span1">{</span><span class="headpart">Code</span>Masters<span
+						class="span1">}</span></h2>
 				<div class="footer-icon-holder">
 					<a href="#"><i class="icon1 fab fa-facebook"></i></a>
 					<a href="#"><i class="icon2 fab fa-twitter"></i></a>
@@ -120,7 +118,7 @@
 					<a href="#"><i class="icon6 fab fa-linkedin"></i></a>
 				</div>
 			</div>
-	
+
 			<div class="two">
 				<h2>"Send us a message !"</h2>
 				<form class="contact-form">
@@ -129,8 +127,10 @@
 					<button><i class="fas fa-check-circle"></i></button>
 				</form>
 			</div>
+			<div class="end-footer-text">
+				<p class="text-end">All Rights Reserved @<a href="#">CodeMasters</a> 2020.</p>
+			</div>
 		</div>
-		
 	</footer>
 
 
@@ -167,7 +167,16 @@
 			.delete()
 			.go()
 
+		new TypeIt("#footer-head", {
+			speed: 60,
+			loop: true
+		}).type("[ \"Contact Us..\" ]")
+			.pause(5000)
+			.delete()
+			.go()
+
 	</script>
 
 </body>
+
 </html>
