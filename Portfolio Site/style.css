@@ -809,6 +809,8 @@ header {
 
 .card-avninder .card .front img {
   height: 100%;
+  position: absolute;
+  right: -6rem;
 }
 
 .card-avninder .card .front {
