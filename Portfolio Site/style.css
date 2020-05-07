@@ -17,6 +17,12 @@ html {
 body {
   background-color: #130f40;
   padding: 0 .2rem 0 .2rem;
+  -webkit-touch-callout: none; /* iOS */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Google chrome */
   /* Scroll Bar */
 }
 
