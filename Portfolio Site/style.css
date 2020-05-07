@@ -926,6 +926,12 @@ header {
   html, body {
     font-size: 6px;
   }
+  #header {
+    height: 70vh;
+  }
+  #footer{
+    height: 30vh;
+  }
   .nav-links {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
