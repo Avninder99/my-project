@@ -253,7 +253,7 @@ nav {
 
 .line2 {
   top: 30px;
-  transform: translateX(5px);
+  transform: translateX(4px);
 }
 
 .hamburger.changer .hamburger-inner .line {
