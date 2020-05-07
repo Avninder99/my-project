@@ -295,13 +295,17 @@ header {
 
 .primary-heading-main {
   font-size: 6rem;
-  font-weight: 400;
+  font-weight: 600;
   padding-left: 1.4rem;
   font-family: 'Raleway', sans-serif;
   display: block;
   letter-spacing: 1.25rem;
   -webkit-animation: moving-right 1.3s ease-in;
           animation: moving-right 1.3s ease-in;
+}
+
+.main-head-part{
+    color: rgb(255, 30, 30);
 }
 
 .primary-heading-sub {
@@ -316,8 +320,8 @@ header {
 
 .logo-box {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -17px;
+  left: -7px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
