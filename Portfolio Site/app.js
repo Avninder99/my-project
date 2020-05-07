@@ -2,10 +2,7 @@
 new TypeIt("#heading-text", {
     speed: 60,
     loop: true
-}).type("?")
-    .pause(2000)
-    .delete()
-    .type("\"Who We Are ?\"")
+}).type("\"Who We Are ?\"")
     .pause(3000)
     .delete()
     .pause(2000)
@@ -49,6 +46,7 @@ const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links li");
 
 hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("changer");
     navLinks.classList.toggle("open");
     links.forEach(link => {
         link.classList.toggle("fade");
