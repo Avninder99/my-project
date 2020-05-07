@@ -524,8 +524,8 @@ header {
   height: 50vh;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#000f66), to(#380069));
   background-image: linear-gradient(to bottom, #000f66, #380069);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);*/
   position: relative;
 }
 
