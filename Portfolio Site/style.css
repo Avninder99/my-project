@@ -933,10 +933,10 @@ header {
     font-size: 6px;
   }
   #header {
-    height: 70vh;
+    height: 100rem;
   }
   #footer{
-    height: 30vh;
+    height: 50rem;
   }
   .nav-links {
     -webkit-box-orient: vertical;
