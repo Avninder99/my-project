@@ -202,15 +202,34 @@ body::-webkit-scrollbar::-thumb {
           transform-origin: left;
 }
 
-.line {
-  width: 40px;
-  height: 5px;
-  background: white;
-  margin: 5px;
-}
-
 nav {
   position: relative;
+}
+
+.line {
+  width: 40px;
+  height: 4px;
+  background: white;
+  margin: 5px;
+  border-radius: 2px;
+  position: absolute;
+  top: 14px;
+  right: 6px;
+  transition: 0.3s;
+}
+
+.line1 , .line2 {
+  position: absolute;
+  height: 4px;
+  width: 40px;
+  border-radius: 2px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+.hamburger-inner {
+  position: relative;
+  height: 100%;
 }
 
 .hamburger {
@@ -218,12 +237,41 @@ nav {
   cursor: pointer;
   right: 2%;
   top: 50%;
-  height: 3rem;
+  height: 5rem;
+  width: 5.5rem;
   -webkit-transform: translate(-5%, -50%);
           transform: translate(-5%, -50%);
   -webkit-transition: all .8s linear;
   transition: all .8s linear;
   z-index: 2;
+}
+
+.line1 {
+  top: 9px;
+  transform: translateX(5px);
+}
+
+.line2 {
+  top: 30px;
+  transform: translateX(5px);
+}
+
+.hamburger.changer .hamburger-inner .line {
+  opacity: 0;
+}
+
+.hamburger.changer .hamburger-inner .line1 {
+  transition: 0.4s;
+  top: 19px;
+  right: 4px;
+  transform: rotate(40deg);
+}
+
+.hamburger.changer .hamburger-inner .line2 {
+  transition: 0.4s;
+  top: 20px;
+  right: 4px;
+  transform: rotate(-40deg);
 }
 
 .nav-links {
