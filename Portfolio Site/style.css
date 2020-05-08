@@ -1017,6 +1017,9 @@ header {
   html, body {
     font-size: 6px;
   }
+  .primary-heading-main {
+    font-size: 10rem;
+  }
   #header {
     height: 600px;
   }
