@@ -254,7 +254,7 @@ nav {
 
 .line1 {
   top: 9px;
-  transform: translateX(5px);
+  transform: translateX(4px);
 }
 
 .line2 {
@@ -469,6 +469,7 @@ header {
   /* clip-path: polygon(50% 0%, 100% 10%, 100% 85%, 50% 100%, 0 85%, 0 10%); */
   padding-bottom: 2.5rem;
   border: 2rem solid white;
+  height: auto;
 }
 
 #heading-text {
