@@ -702,10 +702,9 @@ header {
   color: #111;
 }
 
-@media screen and (max-width:1100px){
+@media screen and (max-width: 600px){
   .about-card{
-    flex: 50%;
-    width: 80vw;
+    flex: 80%;
   }
 }
 
