@@ -704,7 +704,7 @@ header {
 
 @media screen and (max-width: 600px){
   .about-card{
-    flex: 80%;
+    flex: 20%;
   }
 }
 
