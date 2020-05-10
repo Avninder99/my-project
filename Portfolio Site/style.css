@@ -509,101 +509,114 @@ header {
   display: inline;
 }
 
+
 #project-intro {
-  height: auto;
+  height: 120vh;
+  position: relative;
   margin-top: 2rem;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(20, 137, 204, 0.8)), to(rgba(43, 50, 178, 0.6))), url("/img/project-back-2.jpg");
-  background-image: linear-gradient(to right bottom, rgba(20, 137, 204, 0.8), rgba(43, 50, 178, 0.6)), url("/img/project-back-2.jpg");
+  background-color: #0b0524;
+  color: whitesmoke;
+ /* background-image: url("/img/project-back-2.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   padding: 3rem;
   /* clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 0 100%); */
-  border: 2rem solid white;
+  border: 1rem solid white;
 }
 
- .pricing-table{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: min(1600px, 90%);
-  margin: auto;
-}
-
-.pricing-card{
-  flex: 1;
-  max-width: 360px;
-  background-color: #fff;
-  margin: 20px 10px;
+#project-section-head {
   text-align: center;
-  cursor: pointer;
-  overflow: hidden;
-  color: #2d2d2d;
-  transition: .3s linear;
+  font-size: 5rem;
+  color: #0769fc;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+.head-bracket {
+  color: rgb(247, 40, 40);
 }
 
-.pricing-card-header{
-  background-color: #0fbcf9;
-  display: inline-block;
-  color: #fff;
-  padding: 12px 30px;
-  border-radius: 0 0 20px 20px;
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 600;
-  transition: .4s linear;
+.card1 , .card2 , .card3 , .card4 , .card5 , .card6 {
+  height: 32rem;
+  width: 26rem;
+  background-image: linear-gradient(to right, #ab0bc0 , #f81231 , #ab0bc0);
+  background-size: 200%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  border-radius: 10px;
+  transition: 0.8s;
+  float: left;
+  margin: 1rem 2rem;
+}
+.card1:hover , .card2:hover , .card3:hover , .card4:hover , .card5:hover , .card6:hover {
+  transition: 0.8s;
+  background-position: right;
+}
+.content {
+  background-color: #0b0524;
+  height: 97%;
+  width: 97%;
+  margin: 4px;
+  position: absolute;
+  top: 2px;
+  border-radius: 10px;
+}
+.heading1-1 , .heading1-2 , .heading1-3 , .heading1-4 , .heading1-5 , .heading1-6 {
+  position: absolute;
+  font-size: 13rem;
+  font-weight: 900;
+  margin: 0px;
+  top: 1.7rem;
+  right: 20px;
+  font-weight: 900;
+  color: #3d2d79;
+  opacity: 0.5;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.4s;
+}
+.heading2-1 , .heading2-2 , .heading2-3 , .heading2-4 , .heading2-5 , .heading2-6 {
+  text-align: left;
+  padding-left: 1rem;
+  color: #ec1818;
+  opacity: 1;
+  font-weight: 900;
+  margin-top: 6rem;
+  margin-left: 1rem;
+  font-size: 3.5rem;
+  opacity: 0.8;
+  max-width: 160px;
+  transition: 0.4s;
+  line-height: 1.2;
+}
+.para1-1 , .para1-2 , .para1-3 , .para1-4 , .para1-5 , .para1-6 {
+  padding: 0px 2rem;
+  position: absolute;
+  top: 15.5rem;
+  color: rgb(145, 59, 214);
+  opacity: 0.7;
+  transition: 0.4s;
+  font-size: 1.8rem;
+}
+.changer1 {
+  transition: 0.4s;
+  transform: translate(1rem,-3.5rem);
+  color: rgb(235, 48, 48);
+}
+.changer2 {
+  transition: 0.4s;
+  transform: translate(0.2rem,-2.8rem);
+  font-size: 4rem;
+  font-weight: 900;
+  opacity: 1;
+}
+.changer3 {
+  transition: 0.4s;
+  color: rgb(168, 78, 241);
+  opacity: 1;
 }
 
-.pricing-card:hover .pricing-card-header{
-  box-shadow: 0 0 0 26em #0fbcf9;
-}
+ 
 
-.price{
-  font-size: 35px;
-  color: #0fbcf9;
-  margin: 40px 0;
-  transition: .2s linear;
-  text-transform: uppercase;
-}
-
-.price sup, .price span{
-  font-size: 22px;
-  font-weight: 700;
-}
-
-.pricing-card:hover ,.pricing-card:hover .price{
-  color: #fff;
-}
-
-.pricing-card li{
-  font-size: 16px;
-  padding: 10px 0;
-  text-transform: uppercase;
-}
-
-.order-btn{
-  display: inline-block;
-  margin-bottom: 40px;
-  margin-top: 80px;
-  border: 2px solid #0fbcf9;
-  color: #0fbcf9;
-  padding: 18px 40px;
-  border-radius: 8px;
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 500;
-  transition: .3s linear;
-}
-
-.order-btn:hover{
-  background-color: #0fbcf9;
-  color: #fff;
-}
-
-@media screen and (max-width:1100px){
-  .pricing-card{
-    flex: 50%;
-  }
-}
 
 #footer {
   height: 50vh;
