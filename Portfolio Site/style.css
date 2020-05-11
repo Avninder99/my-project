@@ -622,25 +622,45 @@ header {
 
 
 /* about us */
-#about-us {
-  height: auto;
-  margin-top: 2rem;
+  #about-us {
   background: #0f0c29; 
   background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e); 
   background: linear-gradient(to right, #0f0c29, #302b63, #24243e); 
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: justify;
-      -ms-flex-align: justify;
-          align-items: justify;
-  position: relative;
   border: 1rem solid white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans",sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.about-us {
+  background-color: #333;
+  min-height: 100vh;
   display: flex;
   align-items: center;
 }
 
-.about-table{
+.heading-about {
+  display: flex;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  background-color: #333;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.heading-about span {
+  margin: 10px 0;
+  border-bottom: 1px solid;
+}
+
+.about-table {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -648,12 +668,12 @@ header {
   margin: auto;
 }
 
-.about-card{
+.about-card {
   flex: 1;
-  max-width: 450px;
+  max-width: 40%;
   height: auto;
-  background-color: rgba(0,0,0, 0.3);
-  margin: 20px 10px;
+  background-color: rgba(52, 73, 94, 0.4);
+  margin: 30px;
   text-align: center;
   cursor: pointer;
   overflow: hidden;
@@ -664,22 +684,17 @@ header {
 .about-card .about-image {
   width: 100%;
   margin-bottom: 15px;
-  height: 450px;
+  height: 400px;
   border: 1px solid #ecf0f1;
 }
 .about-card:hover ,.about-card:hover .price{
   color: #fff;
 }
 
-.about-card a {
-  text-decoration: none;
-}
-
 .about-card li{
   font-size: 20px;
   padding: 8px 0;
   text-transform: uppercase;
-  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 .order-btn{
@@ -691,10 +706,10 @@ header {
   color: #f1c40f;
   padding: 18px 40px;
   border-radius: 8px;
-  font-size: 16px;
   text-transform: uppercase;
   font-weight: 500;
   transition: .3s linear;
+  text-decoration: none;
 }
 
 .order-btn:hover{
@@ -702,23 +717,32 @@ header {
   color: #111;
 }
 
-@media screen and (max-width: 600px){
-  .about-card{
+@media screen and (max-width: 1000px){
+  .about-card {
     flex: 50%;
+    max-width: 80%;
+    height: auto;
+    background-color: rgba(44, 62, 80, 0.4);
+    margin: 30px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #2d2d2d;
+    transition: .3s linear;
   }
 }
 
-ul li.about-icon-holder {
-  font-size: 30px;
-  margin-top: 7px;
+li.about-icon-holder {
+  font-size: 32px;
+  margin-top: 10px;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
- 
-.about-icon-holder .icon1,.about-icon-holder .icon2,.about-icon-holder .icon3,.about-icon-holder .icon4,.about-icon-holder .icon5,.about-icon-holder .icon6 {
-  margin: 3px 2px;
+
+.icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+  margin: 0.3rem 0.2rem;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  color: #2d2d2d;
+  color: #ffffffaa;
 }
 
 .icon1:hover {
@@ -756,6 +780,7 @@ ul li.about-icon-holder {
   transition: 0.5s;
   color: #535c68;
 }
+
 
 
 /* footer */
