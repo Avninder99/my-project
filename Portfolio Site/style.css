@@ -256,12 +256,12 @@ nav {
 
 .line1 {
   top: 9px;
-  transform: translateX(0px);
+  transform: translateX(-15px);
 }
 
 .line2 {
   top: 30px;
-  transform: translateX(0px);
+  transform: translateX(-15px);
 }
 
 .hamburger.changer .hamburger-inner .line {
@@ -524,7 +524,7 @@ header {
 
 #project-section-head {
   text-align: center;
-  font-size: 8rem;
+  font-size: 6rem;
   color: #0769fc;
   font-weight: 500;
   margin-bottom: 1rem;
