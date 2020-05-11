@@ -232,6 +232,7 @@ nav {
   width: 40px;
   border-radius: 2px;
   background-color: white;
+  transform: translateX(-18px);
   transition: 0.4s;
 }
 
@@ -256,12 +257,10 @@ nav {
 
 .line1 {
   top: 9px;
-  transform: translateX(-15px);
 }
 
 .line2 {
   top: 30px;
-  transform: translateX(-15px);
 }
 
 .hamburger.changer .hamburger-inner .line {
