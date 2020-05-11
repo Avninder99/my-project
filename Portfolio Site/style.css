@@ -516,16 +516,10 @@ header {
 /* Projects */
 
 #project-intro {
-  height: 120vh;
-  position: relative;
+  height: auto;
   margin-top: 2rem;
   background-color: #0b0524;
-  color: whitesmoke;
- /* background-image: url("/img/project-back-2.jpg"); */
-  background-position: center;
-  background-repeat: no-repeat;
   padding: 3rem;
-  /* clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 0 100%); */
   border: 1rem solid white;
 }
 
@@ -539,19 +533,24 @@ header {
 .head-bracket {
   color: rgb(247, 40, 40);
 }
-
+.container-project {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: auto;
+}
 .card1 , .card2 , .card3 , .card4 , .card5 , .card6 {
+  position: relative;
   height: 32rem;
   width: 26rem;
   background-image: linear-gradient(to right, #ab0bc0 , #f81231 , #ab0bc0);
   background-size: 200%;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  position: relative;
   border-radius: 10px;
   transition: 0.8s;
-  float: left;
-  margin: 1rem 2rem;
+  margin: 2rem 3rem;
 }
 .card1:hover , .card2:hover , .card3:hover , .card4:hover , .card5:hover , .card6:hover {
   transition: 0.8s;
