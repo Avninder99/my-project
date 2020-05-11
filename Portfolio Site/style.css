@@ -232,7 +232,7 @@ nav {
   width: 40px;
   border-radius: 2px;
   background-color: white;
-  transform: translateX(-18px);
+  transform: translateX(4px);
   transition: 0.4s;
 }
 
@@ -245,7 +245,7 @@ nav {
   position: absolute;
   cursor: pointer;
   right: 2%;
-  top: 30%;
+  top: 50%;
   height: 5rem;
   width: 5.5rem;
   -webkit-transform: translate(-5%, -50%);
@@ -992,6 +992,12 @@ li.about-icon-holder {
   }
   #footer{
     height: 300px;
+  }
+  .hamburger {
+    top: 30%;
+  }
+  .line1, .line2{
+    transform: translateX(-18px);
   }
   .nav-links {
     -webkit-box-orient: vertical;
