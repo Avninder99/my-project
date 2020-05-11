@@ -739,7 +739,7 @@ li.about-icon-holder {
 }
 
 .icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
-  margin: 0.3rem 0.2rem;
+  margin: 0.3rem 0.5rem;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #ffffffaa;
