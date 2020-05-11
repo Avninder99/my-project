@@ -543,7 +543,7 @@ header {
 .card1 , .card2 , .card3 , .card4 , .card5 , .card6 {
   position: relative;
   height: 320px;
-  width: 250px;
+  width: 260px;
   background-image: linear-gradient(to right, #ab0bc0 , #f81231 , #ab0bc0);
   background-size: 200%;
   text-align: center;
