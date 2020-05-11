@@ -567,10 +567,10 @@ header {
 }
 .heading1-1 , .heading1-2 , .heading1-3 , .heading1-4 , .heading1-5 , .heading1-6 {
   position: absolute;
-  font-size: 13rem;
+  font-size: 130px;
   font-weight: 900;
   margin: 0px;
-  top: 1.7rem;
+  top: 17px;
   right: 20px;
   font-weight: 900;
   color: #3d2d79;
@@ -580,36 +580,36 @@ header {
 }
 .heading2-1 , .heading2-2 , .heading2-3 , .heading2-4 , .heading2-5 , .heading2-6 {
   text-align: left;
-  padding-left: 1rem;
+  padding-left: 10px;
   color: #ec1818;
   opacity: 1;
   font-weight: 900;
-  margin-top: 6rem;
-  margin-left: 1rem;
-  font-size: 3.5rem;
+  margin-top: 60px;
+  margin-left: 10px;
+  font-size: 35px;
   opacity: 0.8;
   max-width: 160px;
   transition: 0.4s;
   line-height: 1.2;
 }
 .para1-1 , .para1-2 , .para1-3 , .para1-4 , .para1-5 , .para1-6 {
-  padding: 0px 2rem;
+  padding: 0px 20px;
   position: absolute;
-  top: 15.5rem;
+  top: 155px;
   color: rgb(145, 59, 214);
   opacity: 0.7;
   transition: 0.4s;
-  font-size: 1.8rem;
+  font-size: 18px;
 }
 .changer1 {
   transition: 0.4s;
-  transform: translate(1rem,-3.5rem);
+  transform: translate(10px,-35px);
   color: rgb(235, 48, 48);
 }
 .changer2 {
   transition: 0.4s;
-  transform: translate(0.2rem,-2.8rem);
-  font-size: 4rem;
+  transform: translate(2px,-28px);
+  font-size: 40px;
   font-weight: 900;
   opacity: 1;
 }
