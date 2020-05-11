@@ -542,15 +542,15 @@ header {
 }
 .card1 , .card2 , .card3 , .card4 , .card5 , .card6 {
   position: relative;
-  height: 32rem;
-  width: 26rem;
+  height: 320px;
+  width: 250px;
   background-image: linear-gradient(to right, #ab0bc0 , #f81231 , #ab0bc0);
   background-size: 200%;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   border-radius: 10px;
   transition: 0.8s;
-  margin: 2rem 3rem;
+  margin: 20px 30px;
 }
 .card1:hover , .card2:hover , .card3:hover , .card4:hover , .card5:hover , .card6:hover {
   transition: 0.8s;
