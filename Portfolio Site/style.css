@@ -375,7 +375,7 @@ header {
 
 .logo-box {
   position: absolute;
-  top: -17px;
+  top: -10px;
   left: -7px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -390,7 +390,7 @@ header {
 }
 
 .logo {
-  height: 15rem;
+  height: 17rem;
   background: none;
   z-index: 2;
 }
