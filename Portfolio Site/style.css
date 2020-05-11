@@ -470,7 +470,6 @@ header {
   background: -webkit-gradient(linear, left top, right bottom, from(#030a35), to(#3438f5));
   background: linear-gradient(to bottom right, #030a35, #3438f5);
   padding: 3rem;
-  /* clip-path: polygon(50% 0%, 100% 10%, 100% 85%, 50% 100%, 0 85%, 0 10%); */
   padding-bottom: 2.5rem;
   border: 2rem solid white;
   height: auto;
@@ -527,7 +526,7 @@ header {
   text-align: center;
   font-size: 8rem;
   color: #0769fc;
-  font-style: italic;
+  font-weight: 500;
   margin-bottom: 1rem;
 }
 .head-bracket {
