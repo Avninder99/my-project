@@ -256,12 +256,12 @@ nav {
 
 .line1 {
   top: 9px;
-  transform: translateX(-20px);
+  transform: translateX(-15px);
 }
 
 .line2 {
   top: 30px;
-  transform: translateX(-20px);
+  transform: translateX(-15px);
 }
 
 .hamburger.changer .hamburger-inner .line {
@@ -702,9 +702,10 @@ header {
   margin-top: 30px;
   border: 2px solid;
   color: #f1c40f;
-  padding: 18px 40px;
+  padding: 18px 30px;
   border-radius: 8px;
   text-transform: uppercase;
+  font-size: 25px;
   font-weight: 500;
   transition: .3s linear;
   text-decoration: none;
@@ -719,7 +720,7 @@ header {
   .about-card {
     flex: 50%;
     max-width: 80%;
-    height: auto;
+    height: 750px;
     background-color: rgba(44, 62, 80, 0.4);
     margin: 30px;
     text-align: center;
@@ -728,16 +729,23 @@ header {
     color: #2d2d2d;
     transition: .3s linear;
   }
+
+    .about-card .about-image {
+    width: 100%;
+    margin-bottom: 15px;
+    height: 300px;
+    border: 1px solid #ecf0f1;
+  }
 }
 
 li.about-icon-holder {
-  font-size: 42px;
+  font-size: 35px;
   margin-top: 10px;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 .icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
-  margin: 3px 7px;
+  margin: 3px 9px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #ffffffaa;
@@ -778,6 +786,7 @@ li.about-icon-holder {
   transition: 0.5s;
   color: #535c68;
 }
+
 
 
 
