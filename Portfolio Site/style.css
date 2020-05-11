@@ -256,12 +256,12 @@ nav {
 
 .line1 {
   top: 9px;
-  transform: translateX(-15px);
+  transform: translateX(-20px);
 }
 
 .line2 {
   top: 30px;
-  transform: translateX(-15px);
+  transform: translateX(-20px);
 }
 
 .hamburger.changer .hamburger-inner .line {
