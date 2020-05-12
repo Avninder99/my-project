@@ -463,14 +463,16 @@ header {
 
 /* Intro Section */
 
+
 #main-intro {
   margin-top: 2rem;
-  background: #1e3c72;
-  background: -webkit-gradient(linear, left top, right bottom, from(#030a35), to(#3438f5));
-  background: linear-gradient(to bottom right, #030a35, #3438f5);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(20, 136, 204, 0.4)), to(rgba(43, 50, 178, 0.4))), url("/img/intro-back.jpg");
+  background-image: linear-gradient(to right bottom, rgba(20, 136, 204, 0.4), rgba(43, 50, 178, 0.4)), url("/img/intro-back.jpg");
+  background-size: cover;
+  background-position: top;
   padding: 3rem;
   padding-bottom: 2.5rem;
-  border: 2rem solid white;
+  border: 1rem solid white;
   height: auto;
 }
 
@@ -496,7 +498,8 @@ header {
   padding: 1rem;
   color: #ffeaa7;
   word-wrap: normal;
-  background: #636e722a;
+  background: #00000077;
+  border-radius: 4%;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
@@ -525,7 +528,6 @@ header {
        visibility: hidden;
     }
   }
-
 
 
 /* Projects */
