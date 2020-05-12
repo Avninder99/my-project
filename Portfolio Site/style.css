@@ -814,8 +814,6 @@ li.about-icon-holder {
   height: 50vh;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#000f66), to(#380069));
   background-image: linear-gradient(to bottom, #000f66, #380069);
-  /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);*/
   position: relative;
 }
 
@@ -852,10 +850,10 @@ li.about-icon-holder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: row;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
 }
 
 .two h2 {
@@ -1007,6 +1005,38 @@ li.about-icon-holder {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #footer{
+    height: auto;
+  }
+  .footer-body {
+    flex-direction: column;
+  }
+  .one , .two {
+    width: 100%;
+  }
+  .email-input {
+    height: 6rem;
+  }
+  .text-input {
+    height: 120px;
+  }
+  .one {
+    text-align: center;
+  }
+  .two form button {
+    top: 6.5rem;
+    font-size: 6rem;
+  }
+  .footer-div-head {
+    font-size: 40px;
+  }
+  .footer-icon-holder {
+    font-size: 30px;
+    margin-left: 0px;
   }
 }
 /*# sourceMappingURL=style.css.map */
