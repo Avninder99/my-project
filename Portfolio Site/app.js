@@ -167,13 +167,19 @@ card6.addEventListener("mouseleave",function(){
 // navbar 
 
 var hamBurger = document.querySelector(".hamburger");
-var anchor = document.querySelectorAll("#navbar .nav-links a")
+var anchors = document.querySelectorAll("#navbar .nav-links li a")
+var nav = document.querySelector("nav");
 
 
 hamBurger.addEventListener("click", function () {
     navLinks.classList.toggle(".open");
+    nav.classList.toggle("open-navbar");
 });
 
-anchor.addEventListener("click", function () {
-    navLinks.classList.toggle(".open");
+anchors.forEach(function (anchor) {
+    anchor.addEventListener("click", function () {
+        navLinks.classList.remove("open");
+        hamBurger.classList.remove("changer");
+    });
 });
+
