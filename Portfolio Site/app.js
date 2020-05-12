@@ -162,3 +162,18 @@ card6.addEventListener("mouseleave",function(){
     heading2_6.classList.remove("changer2");
     para1_6.classList.remove("changer3");
 });
+
+
+// navbar 
+
+var hamBurger = document.querySelector(".hamburger");
+var anchor = document.querySelectorAll("#navbar .nav-links a")
+
+
+hamBurger.addEventListener("click", function () {
+    navLinks.classList.toggle(".open");
+});
+
+anchor.addEventListener("click", function () {
+    navLinks.classList.toggle(".open");
+});
