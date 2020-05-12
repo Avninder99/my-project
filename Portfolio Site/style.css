@@ -755,6 +755,11 @@ header {
     height: 300px;
     border: 1px solid #ecf0f1;
   }
+    .about-card li{
+    font-size: 15px;
+    padding: 8px 0;
+    text-transform: uppercase;
+  }
 }
 
 li.about-icon-holder {
