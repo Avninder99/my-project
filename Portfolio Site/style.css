@@ -23,10 +23,9 @@ body {
        -moz-user-select: none; /* Old versions of Firefox */
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Google chrome */
-  /* Scroll Bar */
 }
-
-body::-webkit-scrollbar {
+/* Scroll Bar */
+/* body::-webkit-scrollbar {
   width: 0.5rem;
 }
 
@@ -36,7 +35,7 @@ body::-webkit-scrollbar::-track {
 
 body::-webkit-scrollbar::-thumb {
   background: white;
-}
+} */
 
 /* navbar */
 
