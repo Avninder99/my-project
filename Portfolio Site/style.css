@@ -637,9 +637,7 @@ header {
 
 /* about us */
   #about-us {
-  background: #0f0c29; 
-  background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e); 
-  background: linear-gradient(to right, #0f0c29, #302b63, #24243e); 
+  background: #0b0524;
   border: 1rem solid white;
   margin: 0;
   padding: 0;
@@ -650,7 +648,6 @@ header {
 }
 
 .about-us {
-  background-color: #333;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -661,12 +658,12 @@ header {
   width: 100%;
   color: white;
   text-transform: uppercase;
-  background-color: #333;
   align-items: center;
   justify-content: center;
   font-size: 60px;
   font-family: sans-serif;
   font-weight: 500;
+  margin-bottom: 20px;
 }
 
 .heading-about span {
@@ -686,12 +683,14 @@ header {
   flex: 1;
   max-width: 40%;
   height: auto;
-  background-color: rgba(52, 73, 94, 0.4);
-  margin: 30px;
+  background: #141E30;
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);
+  background: linear-gradient(to right, #243B55, #141E30);
   text-align: center;
   cursor: pointer;
   overflow: hidden;
   color: #2d2d2d;
+  opacity: .6;
   transition: .3s linear;
 }
 
@@ -703,6 +702,7 @@ header {
 }
 .about-card:hover ,.about-card:hover .price{
   color: #fff;
+  opacity: 1;
 }
 
 .about-card li{
@@ -737,12 +737,15 @@ header {
     flex: 50%;
     max-width: 80%;
     height: 750px;
-    background-color: rgba(44, 62, 80, 0.4);
+    background: #141E30;
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    background: linear-gradient(to right, #243B55, #141E30);
     margin: 30px;
     text-align: center;
     cursor: pointer;
     overflow: hidden;
-    color: #2d2d2d;
+    opacity: 1;
+    color: #fff;
     transition: .3s linear;
   }
 
