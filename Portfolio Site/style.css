@@ -248,7 +248,7 @@ body::-webkit-scrollbar::-thumb {
       display: none;
     }
 
-    @media (max-width: 852px) {
+    @media (max-width: 800px) {
       .nav > .nav-btn {
         display: inline-block;
         position: absolute;
