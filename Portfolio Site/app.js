@@ -162,24 +162,3 @@ card6.addEventListener("mouseleave",function(){
     heading2_6.classList.remove("changer2");
     para1_6.classList.remove("changer3");
 });
-
-
-// navbar 
-
-var hamBurger = document.querySelector(".hamburger");
-var anchors = document.querySelectorAll("#navbar .nav-links li a")
-var nav = document.querySelector("nav");
-
-
-hamBurger.addEventListener("click", function () {
-    navLinks.classList.toggle(".open");
-    nav.classList.toggle("open-navbar");
-});
-
-anchors.forEach(function (anchor) {
-    anchor.addEventListener("click", function () {
-        navLinks.classList.remove("open");
-        hamBurger.classList.remove("changer");
-    });
-});
-
