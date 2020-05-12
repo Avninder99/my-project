@@ -817,7 +817,7 @@ li.about-icon-holder {
 
 /* footer */
 #footer {
-  height: 50vh;
+  height: 350px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#000f66), to(#380069));
   background-image: linear-gradient(to bottom, #000f66, #380069);
   position: relative;
@@ -975,14 +975,15 @@ li.about-icon-holder {
   left: 35%;
 }
 
-.end-footer-text p {
+.text-end {
   font-size: 2rem;
   color: #fff;
   font-weight: 400;
+  text-align: center;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
-.end-footer-text p a {
+.text-end a {
   color: Yellow;
   text-decoration: none;
 }
@@ -1033,9 +1034,12 @@ li.about-icon-holder {
   .one {
     text-align: center;
   }
+  .two {
+    padding: 2rem 4rem;
+  }
   .two form button {
     top: 6.5rem;
-    right: 9.5rem;
+    right: 30px;
     font-size: 6rem;
   }
   .footer-div-head {
@@ -1044,6 +1048,12 @@ li.about-icon-holder {
   .footer-icon-holder {
     font-size: 30px;
     margin-left: 0px;
+  }
+  .text-end {
+    display: block;
+    margin: 0px;
+    width: auto;
+    font-size: 3rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
