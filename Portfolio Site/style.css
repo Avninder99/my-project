@@ -681,7 +681,7 @@ header {
 
 .about-card {
   flex: 1;
-  max-width: 40%;
+  max-width: 43%;
   height: auto;
   background: #141E30;
   background: -webkit-linear-gradient(to right, #243B55, #141E30);
@@ -732,7 +732,7 @@ header {
   color: #111;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 900px){
   .about-card {
     flex: 50%;
     max-width: 80%;
@@ -752,7 +752,7 @@ header {
     .about-card .about-image {
     width: 100%;
     margin-bottom: 15px;
-    height: 300px;
+    height: 350px;
     border: 1px solid #ecf0f1;
   }
     .about-card li{
