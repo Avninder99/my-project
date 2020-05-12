@@ -1085,8 +1085,6 @@ li.about-icon-holder {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 100%;
-    height: 100vh;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -1094,6 +1092,11 @@ li.about-icon-holder {
         -ms-flex-align: center;
             align-items: center;
     background: none;
+  }
+
+  #navbar.open-navbar {
+      height: 100vh;
+      width: 100%;
   }
 
   .navbar .nav-links li {
@@ -1115,8 +1118,6 @@ li.about-icon-holder {
     clip-path: circle(1500px at 90% -10%);
     -webkit-clip-path: circle(1500px at 90% -10%);
   }
-  
-
 
   .hamburger {
     position: absolute;
