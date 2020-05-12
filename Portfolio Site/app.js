@@ -41,17 +41,17 @@ const scroll = new SmoothScroll(' a[href*="#"]', {
 });
 
 // Navbar Hamburger
-const hamburger = document.querySelector(".hamburger");
+//const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links li");
 
-hamburger.addEventListener("click", () => {
+/*hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("changer");
     navLinks.classList.toggle("open");
     links.forEach(link => {
         link.classList.toggle("fade");
     });
-});
+});*/
 
 // scroll animate background navbar
 $(function () {
