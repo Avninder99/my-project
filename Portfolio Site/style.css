@@ -31,11 +31,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar::-track {
-  background: #1e1e24;
+  background: red;
 }
 
 body::-webkit-scrollbar::-thumb {
-  background: #fff;
+  background: white;
 }
 
 /* navbar */
