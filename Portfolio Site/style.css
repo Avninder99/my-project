@@ -206,7 +206,7 @@ body::-webkit-scrollbar::-thumb {
 
  .nav {
       height: 70px;
-      width: 100%;
+      width: 100vw;
       background-color: transparent;
       position: fixed;
       z-index: 2;
