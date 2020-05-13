@@ -207,7 +207,7 @@ body::-webkit-scrollbar::-thumb {
  .nav {
       height: 70px;
       width: 100%;
-      background-color: #4d4d4daa;
+      background-color: #130f40aa;
       position: relative;
       z-index: 2;
     }
@@ -230,7 +230,7 @@ body::-webkit-scrollbar::-thumb {
     .nav > .nav-links {
       display: inline;
       float: right;
-      font-size: 30px;
+      font-size: 25px;
     }
 
     .nav > .nav-links > a {
@@ -248,7 +248,7 @@ body::-webkit-scrollbar::-thumb {
       display: none;
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 850px) {
       .nav > .nav-btn {
         display: inline-block;
         position: absolute;
