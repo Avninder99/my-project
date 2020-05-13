@@ -207,8 +207,8 @@ body::-webkit-scrollbar::-thumb {
  .nav {
       height: 70px;
       width: 100%;
-      background-color: #130f40aa;
-      position: relative;
+      background-color: transparent;
+      position: fixed;
       z-index: 2;
     }
 
@@ -235,7 +235,7 @@ body::-webkit-scrollbar::-thumb {
 
     .nav > .nav-links > a {
       display: inline-block;
-      padding: 15px 10px 13px 10px;
+      padding: 20px 10px 17px 10px;
       text-decoration: none;
       color: #efefef;
     }
@@ -273,13 +273,14 @@ body::-webkit-scrollbar::-thumb {
 
       .nav > .nav-btn > label {
           margin-top: 10px;
+          margin-right: 10px;
       }
 
       .nav > .nav-links {
         position: absolute;
         display: block;
         width: 100%;
-        background-color: #333;
+        background-color: #333d;
         height: 0px;
         transition: all 0.3s ease-in;
         overflow-y: hidden;
@@ -296,6 +297,9 @@ body::-webkit-scrollbar::-thumb {
       .nav > #nav-check:checked ~ .nav-links {
         height: calc(90vh - 350px);
         overflow-y: auto;
+      }
+      .active {
+        background-color: #333d;
       }
     }
 
