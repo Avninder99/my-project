@@ -364,7 +364,7 @@ header {
           animation: moving-left 1.3s ease-in;
 }
 
-.logo-box {
+/* .logo-box {
   position: absolute;
   top: -10px;
   left: -7px;
@@ -384,7 +384,7 @@ header {
   height: 17rem;
   background: none;
   z-index: 2;
-}
+} */
 
 .btn:link,
 .btn:visited {
