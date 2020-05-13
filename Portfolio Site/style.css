@@ -232,12 +232,13 @@ body::-webkit-scrollbar::-thumb {
       float: right;
       font-size: 25px;
     }
-
+      
     .nav > .nav-links > a {
-      display: inline-block;
-      padding: 20px 10px 17px 10px;
-      text-decoration: none;
-      color: #efefef;
+        display: inline-block;
+        padding: 20px 15px 17px 10px;
+        text-decoration: none;
+        color: #efefef;
+        text-transform: uppercase;
     }
 
     .nav > .nav-links > a:hover {
