@@ -253,6 +253,10 @@ body::-webkit-scrollbar::-thumb {
       display: none;
     }
 
+     .active {
+        background-color: #333d;
+      }
+
     @media (max-width: 1000px) {
       .nav > .nav-btn {
         display: inline-block;
@@ -304,10 +308,6 @@ body::-webkit-scrollbar::-thumb {
         overflow-y: auto;
       }
     }
-
-      .active {
-        background-color: #333d;
-      }
 
 
 header {
