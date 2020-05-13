@@ -245,11 +245,15 @@ body::-webkit-scrollbar::-thumb {
       background-color: rgba(0, 0, 0, 0.3);
     }
 
+    .nav > .nav-links > a:last-child {
+        margin-right: 20px;
+    }
+
     .nav > #nav-check {
       display: none;
     }
 
-    @media (max-width: 850px) {
+    @media (max-width: 1000px) {
       .nav > .nav-btn {
         display: inline-block;
         position: absolute;
