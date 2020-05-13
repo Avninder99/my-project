@@ -299,10 +299,11 @@ body::-webkit-scrollbar::-thumb {
         height: calc(90vh - 350px);
         overflow-y: auto;
       }
+    }
+
       .active {
         background-color: #333d;
       }
-    }
 
 
 header {
