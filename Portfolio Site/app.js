@@ -56,11 +56,11 @@ const links = document.querySelectorAll(".nav-links li");
 // scroll animate background navbar
 $(function () {
     $(window).on("scroll", function () {
-        if ($(window).scrollTop() > 120 && $(".nav-links").hasClass("open")) {
-            $(navbar).addClass("active");
+        if ($(window).scrollTop() > 120) {
+            $(".nav").addClass("active");
         } else {
 
-            $(navbar).removeClass("active");
+            $(".nav").removeClass("active");
         }
     });
 });
