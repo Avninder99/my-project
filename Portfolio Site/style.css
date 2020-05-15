@@ -15,7 +15,12 @@ html {
 }
 
 body {
-  background-color: #130f40;
+background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, rgb(10, 16, 36), rgb(12, 11, 22), rgb(2, 20, 102)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 400% 400%;
+  -webkit-animation: gradiant 20s infinite;
+          animation: gradiant 20s infinite;
   padding: 0 .2rem 0 .2rem;
   -webkit-touch-callout: none; /* iOS */
     -webkit-user-select: none; /* Safari */
@@ -25,10 +30,10 @@ body {
             user-select: none; /* Google chrome */
 }
 /* Scroll Bar */
-/* body::-webkit-scrollbar {
-  width: 0.5rem;
+body::-webkit-scrollbar {
+  width: 0;
 }
-body::-webkit-scrollbar::-track {
+/* body::-webkit-scrollbar::-track {
   background: red;
 }
 body::-webkit-scrollbar::-thumb {
@@ -128,6 +133,30 @@ body::-webkit-scrollbar::-thumb {
     opacity: 1;
     -webkit-transform: translateY(0);
             transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes gradiant {
+  0% {
+    background-position: 0%;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
+  }
+}
+
+@keyframes gradiant {
+  0% {
+    background-position: 0%;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
   }
 }
 
@@ -311,7 +340,7 @@ body::-webkit-scrollbar::-thumb {
 
 
 header {
-  height: 95vh;
+  height: 98vh;
   background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(20, 136, 204, 0.8)), to(rgba(43, 50, 178, 0.8))), url("/img/image1.jpg");
   background-image: linear-gradient(to right bottom, rgba(20, 136, 204, 0.8), rgba(43, 50, 178, 0.8)), url("/img/image1.jpg");
   background-size: cover;
@@ -630,7 +659,7 @@ header {
 
 /* about us */
   #about-us {
-  background: #0b0524;
+  background: #060a0e;
   border: 1rem solid white;
   margin: 0;
   padding: 0;
@@ -638,6 +667,7 @@ header {
   font-family: "Open Sans",sans-serif;
   text-decoration: none;
   list-style: none;
+  margin-top: 2rem;
 }
 
 .about-us {
