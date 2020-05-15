@@ -1011,6 +1011,10 @@ li.about-icon-holder {
   .one , .two {
     width: 100%;
   }
+  .text-content {
+    font-size: 3.2rem;
+    margin: 4rem 3%;
+  }
   .email-input {
     height: 6rem;
   }
