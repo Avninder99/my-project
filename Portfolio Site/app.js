@@ -163,4 +163,3 @@ card6.addEventListener("mouseleave", function () {
     heading2_6.classList.remove("changer2");
     para1_6.classList.remove("changer3");
 });
-// new change
