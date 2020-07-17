@@ -1187,7 +1187,7 @@ li.about-icon-holder {
   color: #d1d6db;
 }
 
-.float {
+/* .float {
   position: fixed;
   width: 60px;
   height: 60px;
@@ -1204,4 +1204,43 @@ li.about-icon-holder {
   margin-top: 10px;
   font-size: 40px;
 
+} */
+
+#myTopBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 30px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: 1px solid yellow;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: red;
+  /* Set a background color */
+  color: yellow;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 5px;
+  padding-bottom: 0;
+
+  /* Some padding */
+  /* Rounded corners */
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .2s linear;
+  opacity: .5;
+  border-radius: 50%;
+}
+
+#myTopBtn:hover {
+  transform: rotateZ(360deg);
+  opacity: 1;
 }

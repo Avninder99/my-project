@@ -1,9 +1,9 @@
 // this is our js file Yay!
 // TypeWriter
 new TypeIt("#heading-text", {
-    speed: 60,
-    loop: true
-}).type("\"Who We Are ?\"")
+        speed: 60,
+        loop: true
+    }).type("\"Who We Are ?\"")
     .pause(3000)
     .delete()
     .pause(2000)
@@ -20,26 +20,31 @@ new TypeIt("#heading-text", {
     .go();
 
 new TypeIt("#head-main-about", {
-    speed: 60,
-    loop: true
-}).type("[ \"About Us..\" ]")
+        speed: 60,
+        loop: true
+    }).type("[ \"About Us..\" ]")
     .pause(5000)
     .delete()
     .go()
 
 new TypeIt("#footer-head", {
-    speed: 60,
-    loop: true
-}).type("[ \"Contact Us..\" ]")
+        speed: 60,
+        loop: true
+    }).type("[ \"Contact Us..\" ]")
     .pause(5000)
     .delete()
     .go()
 
 // Smooth Scroll effect
-const scroll = new SmoothScroll(' a[href*="#"]', {
+const scroll = new SmoothScroll('a[href*="#"]', {
     speed: 800,
     speedAsDuration: true
 });
+
+// const scrollTop = new SmoothScroll('a[]', {
+//     speed: 800,
+//     speedAsDuration: true
+// });
 
 // Navbar Hamburger
 //const hamburger = document.querySelector(".hamburger");
@@ -163,3 +168,27 @@ card6.addEventListener("mouseleave", function () {
     heading2_6.classList.remove("changer2");
     para1_6.classList.remove("changer3");
 });
+
+// Float Button to TOP
+
+//Get the button:
+mybutton = document.getElementById("myTopBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+    scrollFunction()
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
